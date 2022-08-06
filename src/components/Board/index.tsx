@@ -1,13 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import { Square } from "../Square";
 import "./styles.css";
 
-function renderSquare(i: number){
-  return <Square value={i} />
-}
-
 export function Board(){
+  function handleClick(i: number){
+
+  }
+
+  function renderSquare(i: number){
+    return <Square value={squares[i]} />
+  }
+
   const status = 'Next player: X';
+
+  const [squares, setSquares] = useState(new Array(9).fill(null))
 
   return (
     <div>
@@ -16,17 +22,13 @@ export function Board(){
         {renderSquare(0)}
         {renderSquare(1)}
         {renderSquare(2)}
-      </div>
-      <div className="board__row">
         {renderSquare(3)}
         {renderSquare(4)}
         {renderSquare(5)}
-      </div>
-      <div className="board__row">
         {renderSquare(6)}
         {renderSquare(7)}
         {renderSquare(8)}
       </div>
-    </div>
+  </div>
   );
 }

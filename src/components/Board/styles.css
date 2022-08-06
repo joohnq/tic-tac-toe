@@ -1,3 +1,10 @@
+.board__row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+
 .board__row .square:nth-child(1),
 .board__row .square:nth-child(2){
     margin-right: 0.2rem;
