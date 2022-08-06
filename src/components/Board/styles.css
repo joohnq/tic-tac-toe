@@ -1,0 +1,9 @@
+.board__row .square:nth-child(1),
+.board__row .square:nth-child(2){
+    margin-right: 0.2rem;
+}
+
+.board__row:nth-child(3),
+.board__row:nth-child(4){
+    margin-top: 0.2rem;
+}

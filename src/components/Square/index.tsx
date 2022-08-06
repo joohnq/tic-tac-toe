@@ -1,5 +1,5 @@
 import React from "react";
-import './style.css'
+import './styles.css'
 
 export function Square(props: { value: number}){
     return (
