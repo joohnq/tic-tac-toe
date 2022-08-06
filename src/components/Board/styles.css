@@ -1,4 +1,4 @@
-.board__row{
+/* .board__row{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -13,4 +13,4 @@
 .board__row:nth-child(3),
 .board__row:nth-child(4){
     margin-top: 0.2rem;
-}
+} */
