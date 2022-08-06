@@ -1,8 +1,13 @@
 import React from 'react';
 import { Title } from '../../components/Title';
+import { Game } from '../../components/Game';
+
 
 export function Home() {
   return (
-    <Title />
+    <div>
+      <Title />
+      <Game />
+    </div>
   )
 }
