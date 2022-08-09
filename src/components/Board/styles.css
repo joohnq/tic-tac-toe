@@ -1,16 +1,6 @@
-/* .board__row{
+.board__row{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    gap: 0.2rem;
 }
-
-
-.board__row .square:nth-child(1),
-.board__row .square:nth-child(2){
-    margin-right: 0.2rem;
-}
-
-.board__row:nth-child(3),
-.board__row:nth-child(4){
-    margin-top: 0.2rem;
-} */
