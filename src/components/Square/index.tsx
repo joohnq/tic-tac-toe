@@ -4,7 +4,9 @@ import './styles.css'
 export class Square extends React.Component{
     render(){
         return(
-            <button className="square"></button>
+            <button className="square">
+                {this.props.value}
+            </button>
         )
     }
 }
